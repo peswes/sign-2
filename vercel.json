@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+ {
+      "source": "/api/ai",
+      "destination": "/api/ai.js"
+    },
+     {
+      "source": "/api/me",
+      "destination": "/api/me.js"
+    },
+        {
+      "source": "/api/validate-referral",
+      "destination": "/api/validate-referral.js"
+    }
+    
+       
+  ]
+}
+
