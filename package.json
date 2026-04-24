@@ -1,0 +1,20 @@
+{
+  "name": "edtech-ai-platform",
+  "version": "1.0.0",
+  "description": "AI-powered EdTech platform for teens",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.4.1",
+    "nodemailer": "^6.9.0",
+    "openai": "^6.34.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
